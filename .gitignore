@@ -1,0 +1,6 @@
+.idea
+__pycache__
+venv
+BikeGUI/Rent_bike/
+*.bak1
+*.bak2
