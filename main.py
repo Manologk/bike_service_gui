@@ -105,12 +105,6 @@ class BikeRental:
             elif rentalBasis == 3:
                 bill = round(rentalPeriod.days / 7) * 60 * numOfBikes
 
-            # family discount calculation
-            # if (3 <= numOfBikes <= 5):
-            #     print("You are eligible for Family rental promotion of 30% discount")
-            #     bill = bill * 0.7
-            # print("Thanks for returning your bike. Hope you enjoyed our service!")
-            # print("That would be ${}".format(bill))
             return bill
 
         else:
